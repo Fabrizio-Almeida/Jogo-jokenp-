@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image:  url(./img/constelações.jpeg) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+.logo {
+    height: 103px;
+    border-radius: 10px;
+    
+}
+
+main {
+    display: block;
+    margin-bottom: 5%;
+}
+
+.container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    position: relative;
+    z-index: auto;
+}
+
+.container video {
+    position: fixed;
+    object-fit: cover;
+    max-height: 50%;
+    justify-content: center;
+    opacity: 100;
+
+}
+
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+    position: relative;
+    z-index: auto;
+
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+
+#rock {
+    background-color: rgb(30, 175, 175);
+}
+
+#paper {
+    background-color: rgb(231, 127, 188);
+}
+
+#scissors {
+    background-color: rgb(252, 175, 76);
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: auto;
+}
+
+.your-score span {
+    color: rgb(0, 132, 255);
+
+}
+
+.machine-score span {
+    color: red;
+}
+
